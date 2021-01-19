@@ -1,0 +1,123 @@
+.sidenav {
+   height: 100%;
+   width: 280px;
+   position: fixed;
+   z-index: 1;
+   top: 0;
+   left: 0;
+   background-color: #111;
+   overflow-x: hidden;
+   padding-top: 20px;
+   text-align: center;
+   transition: linear 0.4s;
+   white-space: nowrap;
+ }
+ 
+ .sidenav a {
+   padding: 6px 8px 6px 16px;
+   text-decoration: none;
+   font-size: 25px;
+   color: white;
+ }
+
+ .sidenav h1 {
+  font-size: 25px; 
+  color: oldlace; 
+  font-family: verdana; 
+  margin: 15px 0px 10px 0px;
+  white-space: nowrap;
+ }
+ 
+ .social_icons{
+  white-space: nowrap;
+ }
+
+ .sidenav a:hover {
+   color: #979797;
+ }
+
+ .sidenav p{
+  color: aqua;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 50px;
+ }
+
+ .main {
+   font-family: verdana;
+   margin-top: -20px;
+   margin-left: 280px; /* Same as the width of the sidenav */
+   font-size: 20px; /* Increased text to enable scrolling */
+   padding: 0px 10px;
+   height: auto;
+   background: linear-gradient(0deg,#000000 0%,#666666 100%);
+   color: aliceblue;
+ }
+
+ .main h1{
+   margin: 0px;
+   padding: 0px;
+   color: #149ddd;
+ }
+
+ @media screen and (max-width: 1100px) {
+   .sidenav {
+      width: 0px;
+   }
+   /*
+   .sidenav a {
+      display: none;
+   }
+   */
+   .main{
+      margin-left: 0px;
+   }
+ }
+
+.round{
+  color: white;
+  padding: 2px;
+  margin: -6px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+ }
+
+ .round:hover{
+  color:#149ddd;
+ }
+
+ .pic_name_social{
+  padding: 40px 0px 0px 20px;
+  text-align: center;
+ }
+
+ .menu{
+   padding: 40px 0px 0px 20px;
+   text-align: left;
+ }
+
+.menu a {
+    display: -webkit-inline-flex;
+    align-items: center;
+    transition: 0.3s;
+    font-size: 20px;
+    color: #149ddd;
+    font-family: verdana;
+}
+
+.menu a i {
+  padding-right: 20px;
+}
+
+.menu a:hover{
+  color: white;
+  font-weight: bold;
+}
+
+.show_navbar{
+  display: block;
+}

@@ -1,0 +1,19 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    scroll-behavior: smooth;
+  }  
+
+.parallax {
+    /* The image used */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/asset/backImg.gif");
+  
+    /* Set a specific height */
+    height: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
