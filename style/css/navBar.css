@@ -50,11 +50,12 @@
    font-size: 20px; /* Increased text to enable scrolling */
    padding: 0px 10px;
    height: auto;
-   background: linear-gradient(0deg,#000000 0%,#666666 100%);
+   background: linear-gradient(0deg,#000000 0%,#421f65 50%,#1e218c 100%);
    color: aliceblue;
  }
 
  .main h1{
+   font-size: 40px;
    margin: 0px;
    padding: 0px;
    color: #149ddd;

@@ -1,24 +1,26 @@
-.skillPercentage{
-    width: 60%;
-    height: 5%;
-    color:white;
+.single_line{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
 }
 
-.box {
-    border: 3px solid #fff;
-    padding: 20px;
+.skill_progress{
+    background-color: #b9ff30;
+    height: 10px;
 }
 
-.box_child {
-    width: 50%;
-    float: left;
-    padding: 20px;
-    border: 2px solid red;
-}  
+.dont_hilite_link{
+    text-decoration: none;
+    color: white;
+}
 
-@media screen and (max-width: 1100px) {
-    .left_box,.right_box{
-        width: 100%;
-        float: unset;
-    }
+.points{
+    font-size: 25px;
+    font-weight: bold;
+    color: #fb9700;
+}
+
+.sub_points{
+    font-weight: bold;
+    color:#b9ff30;
 }
