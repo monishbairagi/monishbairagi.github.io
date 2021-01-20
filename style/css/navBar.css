@@ -55,7 +55,7 @@
  }
 
  .main h1{
-   font-size: 40px;
+   font-size: 35px;
    margin: 0px;
    padding: 0px;
    color: #149ddd;
@@ -121,4 +121,11 @@
 
 .show_navbar{
   display: block;
+}
+
+.temp{
+  color: transparent;
+  background-color: transparent;
+  margin: 0px;
+  padding: 0px;
 }
