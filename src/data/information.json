@@ -1,0 +1,91 @@
+{
+  "about": {
+    "name": {
+      "firstName": "Monish",
+      "middleName": "Kumar",
+      "lastName": "Bairagi"
+    },
+    "bio-skills": [
+      "Digital Specialist Engineer at Infosys",
+      ".Net Full-Stack Developer",
+      "B.Tech CSE Graduate"
+    ],
+    "designation": "Digital Specialist Engineer",
+    "company": "Infosys Technologies",
+    "bio": "Hey there, \nI'm Monish Kumar Bairagi. I was born and grew up in Chandannagar, West Bengal. I have completed my B.Tech from HETC in Computer Science and Engineering. I am currently working in Infosys as a Digital Specialist Engineer. \nMy strength is that I am a Self-Motivated self-learner. And I believe in myself and my hard work. \nMy short-term goal is to do a task with perfection which I am doing. However, my long-term goal is to be a renowned Software engineer in an organization and reach the highest level of success. \nThank You, that's all about me.",
+    "Achievements": {
+      "1": "WITHIN THE TOP 3000 AMONG 1.60 LAKH PARTICIPANTS IN INFOSYS HACKWITHINFY 2021 CODING COMPETITION",
+      "2": "3* MAXIMUM RATING IN CODECHEF",
+      "3": "AN ORGANIZER OF COLLEGE TECHFEST `TECHETC 2K20 & 2K21`"
+    },
+    "Hobbies": {
+      "1": "TECHNICAL BLOGGING",
+      "2": "LEARNING NEW TECHNOLOGIES FROM WEB",
+      "3": "PLAYING CRICKET"
+    },
+    "Languages": {
+      "1": "ENGLISH (READ | WRITE | SPEAK)",
+      "2": "BENGALI (READ | WRITE | SPEAK)",
+      "3": "HINDI (SPEAK)"
+    },
+    "contacts": {
+      "LinkedIn": "https://www.linkedin.com/in/monish-kumar-bairagi-023b8518b",
+      "GitHub": "https://github.com/monishbairagi",
+      "Email": "mailto:monishbairagi@gmail.com",
+      "CodeChef": "https://www.codechef.com/users/monishbairagi",
+      "Blogger": "https://www.codechef.com/users/monishbairagi"
+    }
+  },
+  "education": {
+    "Graduation": {
+      "University": "MAULANA ABUL KALAM AZAD UNIVERSITY OF TECHNOLOGY",
+      "Institute": "HOOGHLY ENGINEERING AND TECHNOLOGY COLLEGE",
+      "Degree": "BACHELOR OF TECHNOLOGY",
+      "Department": "COMPUTER SCIENCE AND ENGINEERING",
+      "Year": "2018 - 2022",
+      "CGPA": "9.09"
+    },
+    "Higher Secondry": {
+      "Board": "W.B.C.H.S.E.",
+      "Institute": "HOOGHLY COLLEGIATE SCHOOL (GOV.)",
+      "Stream": "SCIENCE (Physics, Chemistry, Maths and Biology)",
+      "Year": "2015 - 2017",
+      "Percentage": "67.00% (DON'T JUDGE ME 😎)"
+    },
+    "Secondry": {
+      "Board": "W.B.B.S.E.",
+      "Institute": "CHANDANNAGAR KANAILAL VIDHYA MANDIR (ENG. )",
+      "Year": "2004 - 2015",
+      "Percentage": "77.13% (DON'T JUDGE ME 😎)"
+    }
+  },
+  "skills": {
+    ".Net Full-Stack": {
+      "c#": 90,
+      "SQL Server": 89,
+      "WEB API": 97,
+      "MVC": 100
+    },
+    "Subjects": {
+      "DSA": 70,
+      "OOPs": 90,
+      "DBMS": 85,
+      "SDLC": 70
+    },
+    "Others": {
+      "C/C++": 80,
+      "Java": 90,
+      "Python": 60,
+      "ReactJS": 60,
+      "AngularJS": 40,
+      "MySQL": 70
+    }
+  },
+  "projects": {
+    "Attendance App (Android)": {
+      "Function": "A SMALL PROJECT ON ANDROID. THIS APP WILL TAKE THE ATTENDANCE OF STUDENTS AND PRODUCES AN EXCEL FILE AS OUTPUT.",
+      "Tech. Used": "JAVA, SQLITE DATA BASE",
+      "Link": "https://github.com/monishbairagi/AndroidTestApps/blob/master/Attendance/README.md"
+    }
+  }
+}

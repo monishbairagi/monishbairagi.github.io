@@ -1,0 +1,61 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  font-family: cursive;
+}
+
+.page {
+  color: white;
+  padding: 60px 30px;
+  text-transform: uppercase;
+  font-size: 17px;
+  min-height: 100vh;
+  background-image: url('assets/page_background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+  .page > hr {
+    height: 10px;
+    color: greenyellow;
+    margin: 0;
+    padding: 0;
+  }
+
+  .page > h2 {
+    color: greenyellow;
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  .page > p {
+    font-size: 14px;
+  }
+
+    .page > p > span {
+      font-weight: bold;
+      color: lightskyblue;
+    }
+
+.page-title {
+  height: 45px;
+  width: 90vw; /* 90vw; */
+  top: 0;
+  position: fixed;
+  background: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  color: white;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .page-title {
+    width: 100vw;
+  }
+}

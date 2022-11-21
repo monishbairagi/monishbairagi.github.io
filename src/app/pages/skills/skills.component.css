@@ -1,0 +1,19 @@
+.skill {
+  margin: 0px 0px 10px 0px;
+}
+
+.skill-progress {
+  display: flex;
+  justify-content: space-between;
+}
+
+.progress-bar {
+  height: 2px;
+  width: 100%;
+  background-color: gray;
+}
+
+.progress {
+  height: 2px;
+  background-color: lawngreen;
+}
