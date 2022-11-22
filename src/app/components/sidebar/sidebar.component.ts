@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 import { default as jsonData } from '../../../data/information.json';
 
 @Component({
@@ -17,10 +18,26 @@ export class SidebarComponent implements OnInit {
   emailLink = jsonData.about.contacts.Email;
   linkedInLink = jsonData.about.contacts.LinkedIn;
 
-  constructor() {
+  title = this.getPageTitle();
+  changePageTitle(t: any) {
+    this.title = t;
+    this.titleService.setTitle("Monish's - " + t);
+  }
+
+  constructor(private titleService: Title) {
+    titleService.setTitle("Monish's - " + this.getPageTitle());
   }
 
   ngOnInit(): void {
   }
 
+  getPageTitle(): string {
+    const { pathname } = window.location;
+    let trimmedPathname = pathname;
+    if (pathname.endsWith("/")) {
+      trimmedPathname = pathname.slice(0, pathname.length - 1);
+    }
+    let title = trimmedPathname.slice(trimmedPathname.lastIndexOf("/") + 1).toUpperCase();
+    return (title.length == 0) ? "HOME" : title;
+  }
 }

@@ -24,26 +24,3 @@
     padding-left: 0vw;
   }
 }
-
-
-/* Designing for scroll-bar */
-::-webkit-scrollbar {
-  width: 5px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: none;
-  border-radius: 5px;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: black;
-  border-radius: 5px;
-}
-
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: black;
-  }

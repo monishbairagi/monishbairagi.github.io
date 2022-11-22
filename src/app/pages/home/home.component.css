@@ -1,5 +1,5 @@
 .home {
-  margin: 10px;
+  padding: 10px;
   text-align: center;
   color: #fff;
   height: 97vh;
@@ -10,21 +10,24 @@
   justify-items: center;
 }
 
-.background-video {
-  position: fixed;
-  height: 100%;
-  width: 100%;
-  left: 50%;
-  top: 50%;
-  object-fit: cover;
-  transform: translate(-50%, -50%);
-  z-index: -2;
-  filter: brightness(30%);
+.background-image {
+  background-image: url('../../../assets/home_background.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  -webkit-filter: brightness(50%); /* Safari 6.0 - 9.0 */
+  filter: brightness(50%);
 }
 
 .profile-picture {
-  border-radius: 20%;
-  height: 150px;
+  border-radius: 15%;
+  height: 130px;
   margin-bottom: 15px;
 }
 
@@ -40,7 +43,6 @@ h1 {
 }
 
 .typewriter {
-  color: aquamarine;
   font-size: 4vmin;
 }
 
