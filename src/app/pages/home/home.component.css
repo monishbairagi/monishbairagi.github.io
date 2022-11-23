@@ -15,14 +15,15 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  background-position-x: center;
   position: absolute;
   left: 0px;
   top: 0px;
   z-index: -1;
   width: 100vw;
   height: 100vh;
-  -webkit-filter: brightness(90%); /* Safari 6.0 - 9.0 */
-  filter: brightness(90%);
+  -webkit-filter: brightness(60%); /* Safari 6.0 - 9.0 */
+  filter: brightness(60%);
 }
 
 .profile-picture {
@@ -43,7 +44,7 @@ h1 {
 }
 
 .typewriter {
-  font-size: 4vmin;
+  font-size: 5vmin;
 }
 
 .icon-group {

@@ -10,22 +10,20 @@ import { default as jsonData } from '../../../data/information.json';
 export class SidebarComponent implements OnInit {
 
   profilePic = "../../../../assets/my-pic.jpg";
-  firstNameFirstChar = jsonData.about.name.firstName.charAt(0);
-  lastNameFirstChar = jsonData.about.name.lastName.charAt(0);
-  designation = jsonData.about.designation;
-  company = jsonData.about.company;
-  githubLink = jsonData.about.contacts.GitHub;
-  emailLink = jsonData.about.contacts.Email;
-  linkedInLink = jsonData.about.contacts.LinkedIn;
+  firstNameFirstChar = jsonData.About.Name['First Name'].charAt(0);
+  lastNameFirstChar = jsonData.About.Name['Last Name'].charAt(0);
+  githubLink = jsonData.About.Contacts.GitHub;
+  emailLink = jsonData.About.Contacts.Email;
+  linkedInLink = jsonData.About.Contacts.LinkedIn;
 
   title = this.getPageTitle();
   changePageTitle(t: any) {
     this.title = t;
-    this.titleService.setTitle("Monish's - " + t);
+    this.titleService.setTitle("Monish's - " + this.capitalizeTitle(t));
   }
 
   constructor(private titleService: Title) {
-    titleService.setTitle("Monish's - " + this.getPageTitle());
+    titleService.setTitle("Monish's - " + this.capitalizeTitle(this.getPageTitle()));
   }
 
   ngOnInit(): void {
@@ -39,5 +37,10 @@ export class SidebarComponent implements OnInit {
     }
     let title = trimmedPathname.slice(trimmedPathname.lastIndexOf("/") + 1).toUpperCase();
     return (title.length == 0) ? "HOME" : title;
+  }
+
+  capitalizeTitle(t: string): string {
+    const capitalizedTitle = t.charAt(0).toUpperCase() + t.slice(1).toLowerCase();
+    return capitalizedTitle;
   }
 }

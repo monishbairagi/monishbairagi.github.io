@@ -13,11 +13,11 @@ import { default as jsonData } from '../../../data/information.json';
 })
 export class HomeComponent implements OnInit {
 
-  name = jsonData.about.name.firstName + " " + jsonData.about.name.lastName
-  list = jsonData.about['bio-skills'];
-  githubLink = jsonData.about.contacts.GitHub;
-  emailLink = jsonData.about.contacts.Email;
-  linkedInLink = jsonData.about.contacts.LinkedIn;
+  name = jsonData.About.Name['First Name'] + " " + jsonData.About.Name['Last Name']
+  list = jsonData.About['Bio Skills'];
+  githubLink = jsonData.About.Contacts.GitHub;
+  emailLink = jsonData.About.Contacts.Email;
+  linkedInLink = jsonData.About.Contacts.LinkedIn;
   constructor() { }
 
   ngOnInit(): void {

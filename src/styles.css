@@ -1,27 +1,34 @@
 /* You can add global styles to this file, and also import other style files */
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 
 * {
-  font-family: cursive;
+  font-family: 'Audiowide', cursive;
+  word-spacing: 2px;
 }
 
 .page > hr, .page > h2, .typewriter { /* change color theme */
-  color: lawngreen;
+  color: greenyellow;
 }
 
 .page > p > span { /* change color theme */
-  color: lightgreen;
+  color: orange;
 }
 
 .sidebar-title, .sidebar-content > a, .percentage { /* change color theme */
-  background-color: forestgreen;
+  background-color: greenyellow;
+}
+
+.sidebar-content { /* change color theme */
+  background-color: red;
 }
 
   .sidebar-content > a:hover { /* change color theme */
     background-color: red;
   }
 
-  .sidebar-content > a > svg { /* change color theme */
-    color: white;
+  .sidebar-content > a > svg, .sidebar-title { /* change color theme */
+    color: black;
   }
 
 .page {

@@ -2,28 +2,28 @@ import { Component, OnInit } from '@angular/core';
 import { default as jsonData } from '../../../data/information.json';
 
 @Component({
-  selector: 'app-skills',
-  templateUrl: './skills.component.html',
-  styleUrls: ['./skills.component.css']
+  selector: 'app-Skills',
+  templateUrl: './Skills.component.html',
+  styleUrls: ['./Skills.component.css']
 })
 export class SkillsComponent implements OnInit {
-  cSharp = jsonData.skills['.Net Full-Stack']['c#'];
-  SqlServer = jsonData.skills['.Net Full-Stack']['SQL Server'];
-  WebApi = jsonData.skills['.Net Full-Stack']['WEB API'];
-  MVC = jsonData.skills['.Net Full-Stack'].MVC;
-  dotNet = jsonData.skills['.Net Full-Stack'];
+  cSharp = jsonData.Skills['.Net Full-Stack']['c#'];
+  SqlServer = jsonData.Skills['.Net Full-Stack']['SQL Server'];
+  WebApi = jsonData.Skills['.Net Full-Stack']['WEB API'];
+  MVC = jsonData.Skills['.Net Full-Stack'].MVC;
+  dotNet = jsonData.Skills['.Net Full-Stack'];
 
-  DSA = jsonData.skills.Subjects.DSA;
-  OOPs = jsonData.skills.Subjects.OOPs;
-  DBMS = jsonData.skills.Subjects.DBMS;
-  SDLC = jsonData.skills.Subjects.SDLC;
+  DSA = jsonData.Skills.Subjects.DSA;
+  OOPs = jsonData.Skills.Subjects.OOPs;
+  DBMS = jsonData.Skills.Subjects.DBMS;
+  SDLC = jsonData.Skills.Subjects.SDLC;
 
-  CCpp = jsonData.skills.Others['C/C++'];
-  Java = jsonData.skills.Others.Java;
-  Python = jsonData.skills.Others.Python;
-  ReactJS = jsonData.skills.Others.ReactJS;
-  AngularJS = jsonData.skills.Others.AngularJS;
-  MySQL = jsonData.skills.Others.MySQL;
+  CCpp = jsonData.Skills.Others['C/C++'];
+  Java = jsonData.Skills.Others.Java;
+  Python = jsonData.Skills.Others.Python;
+  ReactJS = jsonData.Skills.Others.ReactJS;
+  AngularJS = jsonData.Skills.Others.AngularJS;
+  MySQL = jsonData.Skills.Others.MySQL;
 
   constructor() { }
 

@@ -1,3 +1,59 @@
 p {
   white-space: pre-wrap;
 }
+
+.experience {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+  .experience > div > h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5vw;
+    font-weight: bold;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .experience > div > h5 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.3vw;
+  }
+
+  .experience > div > h6 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.1vw;
+    color: gray;
+  }
+
+.company-logo {
+  height: calc(20px + 3vw);
+  width: auto;
+  border-radius: 10%;
+}
+
+@media screen and (max-width: 1000px) {
+  .experience > div > h4 {
+    font-size: 4vw;
+  }
+
+  .experience > div > h5 {
+    font-size: 3.8vw;
+  }
+
+  .experience > div > h6 {
+    font-size: 3.2vw;
+  }
+
+  .company-logo {
+    height: calc(30px + 6vw);
+  }
+}

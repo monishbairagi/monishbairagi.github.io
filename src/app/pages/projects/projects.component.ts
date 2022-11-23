@@ -8,9 +8,9 @@ import { default as jsonData } from '../../../data/information.json';
 })
 export class ProjectsComponent implements OnInit {
 
-  projFunction1 = jsonData.projects['Attendance App (Android)'].Function;
-  projTechnologiesUsed1 = jsonData.projects['Attendance App (Android)']['Tech. Used'];
-  projGitHubLink1 = jsonData.projects['Attendance App (Android)'].Link;
+  projFunction1 = jsonData.Projects['Attendance App (Android)'].Function;
+  projTechnologiesUsed1 = jsonData.Projects['Attendance App (Android)']['Tech. Used'];
+  projGitHubLink1 = jsonData.Projects['Attendance App (Android)'].Link;
 
   constructor() { }
 
