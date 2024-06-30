@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "D:\\Repos\\monishbairagi\\monishbairagi.github.io\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{04719CE9-2ECF-45DC-993D-7CEC1B9E9F40}|monishbairagi.github.io.esproj|d:\\repos\\monishbairagi\\monishbairagi.github.io\\src\\app\\pages\\about\\about.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{04719CE9-2ECF-45DC-993D-7CEC1B9E9F40}|monishbairagi.github.io.esproj|solutionrelative:src\\app\\pages\\about\\about.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04719CE9-2ECF-45DC-993D-7CEC1B9E9F40}|monishbairagi.github.io.esproj|d:\\repos\\monishbairagi\\monishbairagi.github.io\\src\\app\\pages\\home\\home.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{04719CE9-2ECF-45DC-993D-7CEC1B9E9F40}|monishbairagi.github.io.esproj|solutionrelative:src\\app\\pages\\home\\home.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{04719CE9-2ECF-45DC-993D-7CEC1B9E9F40}|monishbairagi.github.io.esproj|d:\\repos\\monishbairagi\\monishbairagi.github.io\\src\\app\\app.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{04719CE9-2ECF-45DC-993D-7CEC1B9E9F40}|monishbairagi.github.io.esproj|solutionrelative:src\\app\\app.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04719CE9-2ECF-45DC-993D-7CEC1B9E9F40}|monishbairagi.github.io.esproj|d:\\repos\\monishbairagi\\monishbairagi.github.io\\src\\app\\components\\footer\\footer.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04719CE9-2ECF-45DC-993D-7CEC1B9E9F40}|monishbairagi.github.io.esproj|solutionrelative:src\\app\\components\\footer\\footer.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04719CE9-2ECF-45DC-993D-7CEC1B9E9F40}|monishbairagi.github.io.esproj|d:\\repos\\monishbairagi\\monishbairagi.github.io\\src\\app\\pages\\about\\about.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04719CE9-2ECF-45DC-993D-7CEC1B9E9F40}|monishbairagi.github.io.esproj|solutionrelative:src\\app\\pages\\about\\about.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{04719CE9-2ECF-45DC-993D-7CEC1B9E9F40}|monishbairagi.github.io.esproj|d:\\repos\\monishbairagi\\monishbairagi.github.io\\src\\data\\information.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -21,25 +37,77 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "home.component.css",
+              "DocumentMoniker": "D:\\Repos\\monishbairagi\\monishbairagi.github.io\\src\\app\\pages\\home\\home.component.css",
+              "RelativeDocumentMoniker": "src\\app\\pages\\home\\home.component.css",
+              "ToolTip": "D:\\Repos\\monishbairagi\\monishbairagi.github.io\\src\\app\\pages\\home\\home.component.css",
+              "RelativeToolTip": "src\\app\\pages\\home\\home.component.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-30T22:25:24.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "about.component.css",
+              "DocumentMoniker": "D:\\Repos\\monishbairagi\\monishbairagi.github.io\\src\\app\\pages\\about\\about.component.css",
+              "RelativeDocumentMoniker": "src\\app\\pages\\about\\about.component.css",
+              "ToolTip": "D:\\Repos\\monishbairagi\\monishbairagi.github.io\\src\\app\\pages\\about\\about.component.css",
+              "RelativeToolTip": "src\\app\\pages\\about\\about.component.css",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAADQAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-30T22:20:05.74Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "about.component.html",
+              "DocumentMoniker": "D:\\Repos\\monishbairagi\\monishbairagi.github.io\\src\\app\\pages\\about\\about.component.html",
+              "RelativeDocumentMoniker": "src\\app\\pages\\about\\about.component.html",
+              "ToolTip": "D:\\Repos\\monishbairagi\\monishbairagi.github.io\\src\\app\\pages\\about\\about.component.html",
+              "RelativeToolTip": "src\\app\\pages\\about\\about.component.html",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-06-30T22:19:27.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "footer.component.html",
+              "DocumentMoniker": "D:\\Repos\\monishbairagi\\monishbairagi.github.io\\src\\app\\components\\footer\\footer.component.html",
+              "RelativeDocumentMoniker": "src\\app\\components\\footer\\footer.component.html",
+              "ToolTip": "D:\\Repos\\monishbairagi\\monishbairagi.github.io\\src\\app\\components\\footer\\footer.component.html",
+              "RelativeToolTip": "src\\app\\components\\footer\\footer.component.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-06-30T22:18:36.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "app.component.html",
               "DocumentMoniker": "D:\\Repos\\monishbairagi\\monishbairagi.github.io\\src\\app\\app.component.html",
               "RelativeDocumentMoniker": "src\\app\\app.component.html",
               "ToolTip": "D:\\Repos\\monishbairagi\\monishbairagi.github.io\\src\\app\\app.component.html",
               "RelativeToolTip": "src\\app\\app.component.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAARAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-06-30T21:02:03.701Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "information.json",
               "DocumentMoniker": "D:\\Repos\\monishbairagi\\monishbairagi.github.io\\src\\data\\information.json",
               "RelativeDocumentMoniker": "src\\data\\information.json",
@@ -47,8 +115,7 @@
               "RelativeToolTip": "src\\data\\information.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAACGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-30T18:07:36.339Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-30T18:07:36.339Z"
             }
           ]
         }
