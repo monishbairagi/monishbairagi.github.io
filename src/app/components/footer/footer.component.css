@@ -1,0 +1,20 @@
+.footer {
+  width: 100%;
+  background-color: black;
+  padding: 6px 10px 15px 10px;
+  text-align: center;
+  font-size: 14px;
+}
+
+  .footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .footer .text-muted {
+    color: #6c757d;
+  }
+
+  .footer .text-muted a {
+    text-decoration: none;
+  }

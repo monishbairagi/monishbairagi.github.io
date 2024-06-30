@@ -1,60 +1,75 @@
-<!--<div class="page-title">ABOUT</div>-->
-
 <div class="page">
-  <p>{{bio}}</p>
-  <br />
-
-  <h2>EXPERIENCE</h2>
-  <hr />
-  <div class="experience">
-    <div>
-      <img class="company-logo" src={{e2CompanyLogo}} />
-    </div>
-    <div style="margin-left: 10px">
-      <h4>{{e2Designation}}</h4>
-      <h5>{{e2Company}} • {{e2JobType}}</h5>
-      <h6>{{e2TimeFrame}}</h6>
-    </div>
-  </div>
-  <div class="experience">
-    <div>
-      <img class="company-logo" src={{e1CompanyLogo}} />
-    </div>
-    <div style="margin-left: 10px">
-      <h4>{{e1Designation}}</h4>
-      <h5>{{e1Company}} • {{e1JobType}}</h5>
-      <h6>{{e1TimeFrame}}</h6>
-    </div>
+  <div id="about" style="margin-top: -75px; position: absolute;"></div>
+  <div style="height: 40px;"></div>
+  <div class="page-title">Curious to Learn More About Me?</div>
+  <div class="bio-img">
+    <p>{{bio}}</p>
+    <img alt="picture" src="../../../assets/my_picture_2.jpeg">
   </div>
   <br />
 
+  <div class="about-card">
+    <h2>EXPERIENCE</h2>
+    <hr />
+    <div class="experience">
+      <div>
+        <img class="company-logo" src={{e2CompanyLogo}} />
+      </div>
+      <div style="margin-left: 10px">
+        <h4>{{e2Designation}}</h4>
+        <h5>{{e2Company}} • {{e2JobType}}</h5>
+        <h6>{{e2TimeFrame}}</h6>
+      </div>
+    </div>
+    <div class="experience">
+      <div>
+        <img class="company-logo" src={{e1CompanyLogo}} />
+      </div>
+      <div style="margin-left: 10px">
+        <h4>{{e1Designation}}</h4>
+        <h5>{{e1Company}} • {{e1JobType}}</h5>
+        <h6>{{e1TimeFrame}}</h6>
+      </div>
+    </div>
+  </div>
 
-  <h2>ACHIEVEMENTS &amp; RESPONSIBILITIES</h2>
-  <hr />
-  <p><span>◉</span> {{achievement1}}</p>
-  <p>
-    <span>◉</span> {{achievement2}} |
-    <a target="_blank" rel="noreferrer" href={{codeChefLink}}>Link</a>
-  </p>
-  <p><span>◉</span> {{achievement3}}</p>
-  <br>
+  <div class="about-card">
+    <h2>ACHIEVEMENTS &amp; RESPONSIBILITIES</h2>
+    <hr />
+    <p><span>◉</span> {{achievement1}}</p>
+    <p><span>◉</span> {{achievement2}} </p>
+    <p><span>◉</span> {{achievement3}}</p>
+  </div>
 
-  <h2>HOBBIES</h2>
-  <hr />
-  <p>
-    <span>◉</span> {{hobbie1}} |
-    <a target="_blank" rel="noreferrer" href={{bloggerLink}}>Link</a>
-  </p>
-  <p><span>◉</span> {{hobbie2}}</p>
-  <p><span>◉</span> {{hobbie3}}</p>
-  <br>
+  <div class="responsive-two-column-grid">
+    <div class="about-card">
+      <h2>HOBBIES</h2>
+      <hr />
+      <p>
+        <span>◉</span> {{hobbie1}} |
+        <a target="_blank" rel="noreferrer" href={{bloggerLink}}>BLOGGER</a>
+      </p>
+      <p>
+        <span>◉</span> {{hobbie2}} |
+        <a target="_blank" rel="noreferrer" href={{leetCodeLink}}>LeetCode</a>,
+        <a target="_blank" rel="noreferrer" href={{codeChefLink}}>CodeChef</a>
+      </p>
+      <p>
+        <span>◉</span> {{hobbie3}} |
+        <a target="_blank" rel="noreferrer" href={{chessLink}}>Chess.com</a>
+      </p>
+      <p><span>◉</span> {{hobbie4}}</p>
+    </div>
 
-  <h2>LANGUAGES</h2>
-  <hr />
-  <p><span>◉</span> {{language1}}</p>
-  <p><span>◉</span> {{language2}}</p>
-  <p><span>◉</span> {{language3}}</p>
-  <br>
+    <div class="about-card">
+      <h2>LANGUAGES</h2>
+      <hr />
+      <p><span>◉</span> {{language1}}</p>
+      <p><span>◉</span> {{language2}}</p>
+      <p><span>◉</span> {{language3}}</p>
+    </div>
+  </div>
+
   <div style="height: 20px;"></div>
 </div>
 

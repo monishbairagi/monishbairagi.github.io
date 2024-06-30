@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { default as jsonData } from '../../../data/information.json';
 
 @Component({
-  selector: 'app-About',
+  selector: 'About',
   templateUrl: './About.component.html',
   styleUrls: ['./About.component.css']
 })
@@ -15,10 +15,13 @@ export class AboutComponent implements OnInit {
   hobbie1 = jsonData.About.Hobbies[1];
   hobbie2 = jsonData.About.Hobbies[2];
   hobbie3 = jsonData.About.Hobbies[3];
+  hobbie4 = jsonData.About.Hobbies[4];
   language1 = jsonData.About.Languages[1];
   language2 = jsonData.About.Languages[2];
   language3 = jsonData.About.Languages[3];
   codeChefLink = jsonData.About.Contacts.CodeChef;
+  leetCodeLink = jsonData.About.Contacts.LeetCode;
+  chessLink = jsonData.About.Contacts.Chess;
   bloggerLink = jsonData.About.Contacts.Blogger;
 
   e1Designation = jsonData.About.Experience[1].Designation;

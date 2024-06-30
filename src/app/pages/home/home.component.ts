@@ -4,7 +4,7 @@ import { default as jsonData } from '../../../data/information.json';
 
 @Component({
   standalone: true,
-  selector: 'app-home',
+  selector: 'Home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css'],
   imports: [
@@ -18,6 +18,9 @@ export class HomeComponent implements OnInit {
   githubLink = jsonData.About.Contacts.GitHub;
   emailLink = jsonData.About.Contacts.Email;
   linkedInLink = jsonData.About.Contacts.LinkedIn;
+  instagramLink = jsonData.About.Contacts.Instagram;
+  chessLink = jsonData.About.Contacts.Chess;
+
   constructor() { }
 
   ngOnInit(): void {

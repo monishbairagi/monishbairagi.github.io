@@ -5,7 +5,7 @@
       "Midd leName": "Kumar",
       "Last Name": "Bairagi"
     },
-    "Bio": "Hey there, \nI'm Monish Kumar Bairagi. I was born and grew up in Chandannagar, West Bengal. I have completed my B.Tech from HETC in Computer Science and Engineering. I am currently working in Infosys as a Digital Specialist Engineer. \nMy strength is that I am a Self-Motivated self-learner. And I believe in myself and my hard work. \nMy short-term goal is to do a task with perfection which I am doing. However, my long-term goal is to be a renowned Software engineer in an organization and reach the highest level of success. \nThank You, that's all about me.",
+    "Bio": "Hey there,\nI'm Monish Kumar Bairagi, originally from Chandannagar, West Bengal. I hold a B.Tech degree in Computer Science and Engineering from HETC. Currently, I serve as a Digital Specialist Engineer at Infosys.\nMy strength lies in being a self-motivated learner, driven by a strong belief in myself and my dedication. In the short term, I aim to execute tasks with precision and excellence. Looking ahead, my long-term aspiration is to establish myself as a distinguished Software Engineer within an esteemed organization, striving for the pinnacle of success.\n\nThank you for taking the time to learn a bit about me.",
     "Bio Skills": [
       "DSE @ Infosys",
       ".Net Full-Stack Developer",
@@ -17,25 +17,26 @@
         "Company": "CppSecrets",
         "Job Type": "Internship",
         "Time Frame": "Oct 2019 - Jan 2020",
-        "Company Logo": "https://media.glassdoor.com/sqll/2592022/cppsecrets-com-squarelogo-1596122380289.png"
+        "Company Logo": "data:image/png;base64,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"
       },
       "2": {
         "Designation": "Digital Specialist Engineer",
         "Company": "Infosys",
         "Job Type": "Full-Time",
         "Time Frame": "Jul 2022 - Present",
-        "Company Logo": "https://th.bing.com/th/id/OIP.eLYdjJhaZNmcssmWop_Z5QHaHd?pid=ImgDet&rs=1"
+        "Company Logo": "https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/v1415386231/utypaslbyxwfuwhfdzxd.png"
       }
     },
     "Achievements": {
-      "1": "WITHIN THE TOP 3000 AMONG 1.60 LAKH PARTICIPANTS IN INFOSYS HACKWITHINFY 2021 CODING COMPETITION",
-      "2": "3* MAXIMUM RATING IN CODECHEF",
-      "3": "AN ORGANIZER OF COLLEGE TECHFEST `TECHETC 2K20 & 2K21`"
+      "1": "GOT UNIT RAISE AWARD (X1) AND INSTA AWARD (X2) AT INFOSYS",
+      "2": "WITHIN THE TOP 3000 AMONG 1.60 LAKH PARTICIPANTS IN INFOSYS HACKWITHINFY 2021 CODING COMPETITION",
+      "3": "AN LEAD ORGANIZER OF COLLEGE TECHFEST `TECHETC 2K20 & 2K21`"
     },
     "Hobbies": {
       "1": "TECHNICAL BLOGGING",
-      "2": "LEARNING NEW TECHNOLOGIES FROM WEB",
-      "3": "PLAYING CRICKET"
+      "2": "COMPETITIVE CODING",
+      "3": "LOVE TO PLAY CRICKET, CHESS",
+      "4": "LEARNING NEW TECHNOLOGIES FROM WEB"
     },
     "Languages": {
       "1": "ENGLISH (READ | WRITE | SPEAK)",
@@ -47,10 +48,16 @@
       "GitHub": "https://github.com/monishbairagi",
       "Email": "mailto:monishbairagi@gmail.com",
       "CodeChef": "https://www.codechef.com/users/monishbairagi",
-      "Blogger": "https://thezenithcoder.blogspot.com/"
+      "LeetCode": "https://leetcode.com/u/monishbairagi/",
+      "Blogger": "https://thezenithcoder.blogspot.com/",
+      "Instagram": "https://www.instagram.com/monish.bairagi/",
+      "Chess": "https://www.chess.com/member/monishbairagi"
     }
   },
   "Education": {
+    "Masters": {
+      "Plan": "Aiming for a Master's Degree in the Future"
+    },
     "Graduation": {
       "University": "MAULANA ABUL KALAM AZAD UNIVERSITY OF TECHNOLOGY",
       "Institute": "HOOGHLY ENGINEERING AND TECHNOLOGY COLLEGE",
@@ -74,28 +81,39 @@
   "Skills": {
     ".Net Full-Stack": {
       "c#": 90,
-      "SQL Server": 89,
-      "WEB API": 97,
-      "MVC": 100
+      "SQL Server": 93,
+      "WEB API": 92,
+      "MVC": 89
     },
-    "Subjects": {
-      "DSA": 70,
-      "OOPs": 90,
+    "Concepts": {
+      "DSA": 81,
+      "OOPs": 93,
       "DBMS": 85,
-      "SDLC": 70
+      "SDLC": 72
     },
-    "Others": {
-      "C/C++": 80,
-      "Java": 90,
-      "Python": 60,
-      "ReactJS": 60,
-      "AngularJS": 40,
-      "MySQL": 70
+    "Languages": {
+      "C/C++": 86,
+      "Java": 96,
+      "Python": 62
+    },
+    "OtherSkils": {
+      "MSSQL": 83,
+      "ReactJS": 50,
+      "AngularJS": 60
     }
   },
   "Projects": {
-    "Attendance App (Android)": {
-      "Function": "A SMALL PROJECT ON ANDROID. THIS APP WILL TAKE THE ATTENDANCE OF STUDENTS AND PRODUCES AN EXCEL FILE AS OUTPUT.",
+    "Shipment Tracking (Client Project)": {
+      "Description": "I have extensive experience collaborating with a logistics client, where my role centered around tracking shipments, trucks, flights, and ships. A key aspect of my work involved forecasting the estimated time of arrival (ETA) for upcoming stops. We seamlessly integrated our geo API with Philips GPS devices to capture precise latitude and longitude data. Furthermore. Our team developed a robust web application using .NET Core with a backend supported by MSSQL. We implemented automated jobs and utilized queues for efficient data processing.",
+      "Tech. Used": "C#, .Net Core, .Net Web API, MSSQL, Hangfire Jobs, RabbitMq, Kibana, TeamCity, GCP, Jira"
+    },
+    "Secure Chat Web App (College Project)": {
+      "Description": "Engineered a robust chat application using Angular for frontend development, Spring Boot for backend services, and a NoSQL database for efficient data management. Integrated socket technology to facilitate seamless real-time communication. Implemented cutting-edge encryption algorithms, including a novel DNA algorithm sourced from research literature, to ensure end-to-end security of data transmission.",
+      "Tech. Used": "Angular, JAVA Spring Boot, NoSQL, DNA Encryption Algorithim",
+      "Link": "https://github.com/monishbairagi/chat-app"
+    },
+    "Attendance Android App (College Project)": {
+      "Description": "A SMALL PROJECT ON ANDROID. THIS APP WILL TAKE THE ATTENDANCE OF STUDENTS AND PRODUCES AN EXCEL FILE AS OUTPUT.",
       "Tech. Used": "JAVA, SQLITE DATA BASE",
       "Link": "https://github.com/monishbairagi/AndroidTestApps/blob/master/Attendance/README.md"
     }

@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { default as jsonData } from '../../../data/information.json';
 
 @Component({
-  selector: 'app-Skills',
+  selector: 'Skills',
   templateUrl: './Skills.component.html',
   styleUrls: ['./Skills.component.css']
 })
@@ -13,17 +13,18 @@ export class SkillsComponent implements OnInit {
   MVC = jsonData.Skills['.Net Full-Stack'].MVC;
   dotNet = jsonData.Skills['.Net Full-Stack'];
 
-  DSA = jsonData.Skills.Subjects.DSA;
-  OOPs = jsonData.Skills.Subjects.OOPs;
-  DBMS = jsonData.Skills.Subjects.DBMS;
-  SDLC = jsonData.Skills.Subjects.SDLC;
+  DSA = jsonData.Skills.Concepts.DSA;
+  OOPs = jsonData.Skills.Concepts.OOPs;
+  DBMS = jsonData.Skills.Concepts.DBMS;
+  SDLC = jsonData.Skills.Concepts.SDLC;
 
-  CCpp = jsonData.Skills.Others['C/C++'];
-  Java = jsonData.Skills.Others.Java;
-  Python = jsonData.Skills.Others.Python;
-  ReactJS = jsonData.Skills.Others.ReactJS;
-  AngularJS = jsonData.Skills.Others.AngularJS;
-  MySQL = jsonData.Skills.Others.MySQL;
+  CCpp = jsonData.Skills.Languages['C/C++'];
+  Java = jsonData.Skills.Languages.Java;
+  Python = jsonData.Skills.Languages.Python;
+
+  ReactJS = jsonData.Skills.OtherSkils.ReactJS;
+  AngularJS = jsonData.Skills.OtherSkils.AngularJS;
+  MSSQL = jsonData.Skills.OtherSkils.MSSQL;
 
   constructor() { }
 

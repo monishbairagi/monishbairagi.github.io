@@ -1,10 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
 /* Imports */
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@800&family=Playwrite+US+Trad:wght@100..400&display=swap');
 
 * {
-  font-family: 'Audiowide', cursive;
+  font-family: "Inconsolata", monospace;
   word-spacing: 2px;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 .page > hr, .page > h2, .typewriter { /* change color theme */
@@ -33,7 +38,7 @@
 
 .page {
   color: white;
-  padding: 105px 15px 40px 15px;
+  padding: 15px 15px 40px 15px;
   text-transform: uppercase;
   font-size: 17px;
   min-height: 100vh;
@@ -65,11 +70,9 @@
 
 .page-title {
   height: 45px;
-  width: 90vw; /* 90vw; */
+  width: 100%;
   position: sticky;
-  background: black;
-  font-size: 1.5rem;
-  font-weight: bold;
+  font-size: 20px;
   display: grid;
   justify-content: center;
   align-items: center;
@@ -77,12 +80,19 @@
   justify-items: center;
   color: white;
   z-index: 1;
+  font-family: "Lexend Zetta", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #abfb2f, 0 0 82px #abfb2f, 0 0 92px #abfb2f, 0 0 102px #abfb2f, 0 0 151px #abfb2f;
 }
 
 
 @media screen and (max-width: 1000px) {
   .page-title {
-    width: 100vw;
+    width: 100%;
+    text-align: -webkit-center;
+    font-size: small;
   }
 }
 

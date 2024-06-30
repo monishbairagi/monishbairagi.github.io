@@ -16,3 +16,33 @@
 .percentage {
   height: 2px;
 }
+
+/* container */
+.responsive-two-column-grid {
+  display: block;
+}
+
+  /* columns */
+  .responsive-two-column-grid > * {
+    padding: 1rem 2rem;
+  }
+
+/* tablet breakpoint */
+@media (min-width:768px) {
+  .responsive-two-column-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.skill-card {
+  border-radius: 25px;
+  margin: 15px;
+  background-color: rgb(0, 0, 0, 0.5);
+}
+
+  .skill-card h2 {
+    font-size: 20px;
+    text-align: center;
+    color: greenyellow;
+  }
