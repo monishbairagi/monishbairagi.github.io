@@ -12,10 +12,6 @@
   transition: backdrop-filter 0.3s ease;
 }
 
-.logo {
-  font-size: 1.5em;
-}
-
 .menu-toggle {
   background: none;
   border: none;
@@ -96,6 +92,7 @@
     font-size: 1.2rem;
     transition: color 0.3s ease;
     cursor: pointer;
+    font-weight: 800;
   }
 
     .nav a:hover, .logo:hover {
@@ -107,7 +104,6 @@
 }
 
 @media (min-width: 769px) {
-
   .header {
     background-color: transparent;
     padding: 10px 30px;
