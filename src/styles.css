@@ -6,6 +6,7 @@
 * {
   font-family: "Inconsolata", monospace;
   word-spacing: 2px;
+  transition: all 0.3s ease;
 }
 
 body {
@@ -89,7 +90,10 @@ body {
 
 
 @media screen and (max-width: 1000px) {
-  .page-title {
+  .page {
+    font-size: 12px;
+  }
+    .page-title {
     width: 100%;
     text-align: -webkit-center;
     font-size: small;

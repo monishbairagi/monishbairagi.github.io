@@ -1,12 +1,17 @@
 <header class="header" [ngClass]="{'sticky': isSticky}">
-  <a class="logo">{{'{ Monish.Dev_ };'}}</a>
-  <nav>
-    <ul class="nav-links">
-      <li><a href="#"><span>// home()</span></a></li>
-      <li><a href="#about"><span>// about()</span></a></li>
-      <li><a href="#education"><span>// education()</span></a></li>
-      <li><a href="#skills"><span>// skills()</span></a></li>
-      <li><a href="#projects"><span>// projects()</span></a></li>
+  <a class="logo">{{'Monish.Dev();'}}</a>
+  <button class="menu-toggle" (click)="toggleMenu()">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+  </button>
+  <nav class="nav" [ngClass]="{'open': isMenuOpen}">
+    <ul>
+      <li><a (click)="closeMenu()" href="#">// home();</a></li>
+      <li><a (click)="closeMenu()" href="#about">// about();</a></li>
+      <li><a (click)="closeMenu()" href="#education">// education();</a></li>
+      <li><a (click)="closeMenu()" href="#skills">// skills();</a></li>
+      <li><a (click)="closeMenu()" href="#projects">// projects();</a></li>
     </ul>
   </nav>
 </header>
