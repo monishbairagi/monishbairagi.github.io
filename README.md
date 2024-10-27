@@ -36,7 +36,37 @@ To set up the project, follow these steps:
    The application will be available at http://localhost:4200/
 
 ## Deployment
-Follow the below steps to deploy:
+
+To deploy your Angular application to GitHub Pages, follow these steps:
+
+1. **Install Angular CLI GitHub Pages Package**:
+	```bash
+   npm install -g angular-cli-ghpages
+	```
+2. **Configure GitHub Pages**:
+	- Go to your GitHub repository.
+	- Click on Settings.
+	- Navigate to Pages.
+	- Under Source, select the branch you want to deploy from (e.g., [`recent-release-branch`]) and set the folder to `/ (root)`.
+	
+3. **Remove Any Existing dist Directory**: 
+	If there is a previous dist directory, remove it:
+	```bash
+	rmdir /s /q dist
+	```
+4. **Build Your Angular Application**: 
+	Run the following command to build your application:
+	```bash
+	ng build --base-href "https://monishbairagi.github.io/"
+	```
+5. **Deploy to GitHub Pages**: 
+	Use the command below to deploy your application to the specified branch:
+	```bash
+	npx angular-cli-ghpages --dir=dist/monishbairagi.github.io/ --branch=<branch-name>
+	```
+	Replace <branch-name> with the name of the branch you want to deploy to.
+
+After completing these steps, your Angular app should be live on GitHub Pages!
 
 ## Contributing
 If you would like to contribute to this project, please fork the repository and create a pull request. All contributions are welcome!

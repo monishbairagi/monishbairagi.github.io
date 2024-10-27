@@ -103,7 +103,7 @@ body {
     .page-title {
     width: 100%;
     text-align: -webkit-center;
-    font-size: small;
+    font-size: smaller;
   }
 }
 
