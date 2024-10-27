@@ -79,13 +79,20 @@ body {
   align-items: center;
   align-content: center;
   justify-items: center;
-  color: white;
+  color: black;
   z-index: 1;
   font-family: "Lexend Zetta", sans-serif;
   font-optical-sizing: auto;
   font-weight: 800;
   font-style: normal;
-  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #abfb2f, 0 0 82px #abfb2f, 0 0 92px #abfb2f, 0 0 102px #abfb2f, 0 0 151px #abfb2f;
+  background: 
+    radial-gradient(circle at top left, transparent 15px, greenyellow 0) top left, 
+    radial-gradient(circle at top right, transparent 15px, greenyellow 0) top right, 
+    radial-gradient(circle at bottom left, transparent 15px, greenyellow 0) bottom left, 
+    radial-gradient(circle at bottom right, transparent 15px, greenyellow 0) bottom right;
+  background-size: 55% 55%;
+  background-repeat: no-repeat;
+  padding: 0px 30px;
 }
 
 
