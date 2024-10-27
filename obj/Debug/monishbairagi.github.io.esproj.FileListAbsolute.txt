@@ -1,4 +1,0 @@
-D:\My Projects\monishbairagi.github.io\obj\Debug\monishbairagi.github.io.esproj.SuggestedBindingRedirects.cache
-D:\My Projects\monishbairagi.github.io\obj\Debug\monishbairagi.github.io.esproj.CoreCompileInputs.cache
-D:\Repos\monishbairagi\monishbairagi.github.io\obj\Debug\monishbairagi.github.io.esproj.CoreCompileInputs.cache
-C:\Users\Monish\Source\Repos\monishbairagi\monishbairagi.github.io\obj\Debug\monishbairagi.github.io.esproj.CoreCompileInputs.cache
